@@ -1,0 +1,16 @@
+{  
+  "id": "******",
+  "cpus": 1,
+  "mem": 1024,
+  "instances": 1,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "*******",
+      "network": "HOST"   
+    }
+  },
+  "ports": [
+     9966
+  ]  
+}
